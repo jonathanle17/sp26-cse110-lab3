@@ -1,0 +1,19 @@
+:root {
+    --warriors-blue: #1D428A;
+    --warriors-gold: #FFC72C;
+    --main-font: 'Roboto', sans-serif;
+    --bg-light: #f4f4f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font, Arial);
+    background-color: var(--bg-light);
+    font-size: 12pt;
+    border-left: 0.1in solid transparent;
+}
