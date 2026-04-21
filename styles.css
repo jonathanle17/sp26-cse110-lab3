@@ -36,3 +36,30 @@ footer {
     color: orange;
     padding-top: 5vh;
 }
+
+#attendance {
+    margin: 20px auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border-style: solid;
+    border-color: var(--warriors-blue);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding: 20px;
+
+    border: 1px solid #ddd;
+
+    max-width: 1000px;
+    min-width: 32px;
+    width: 90%;
+}
