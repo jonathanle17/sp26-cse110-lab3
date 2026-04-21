@@ -32,9 +32,9 @@ header {
 }
 
 footer {
+    color: orange;
     color: color(display-p3 1 0.5 0);
     background-color: color-mix(in srgb, var(--warriors-blue), white 20%);
-    color: orange;
     padding-top: 5vh;
 }
 
@@ -102,11 +102,12 @@ button:active { transform: scale(0.95); }
 
 section:has(form) {background-color: #eee; }
 
-form {
-    fieldset {
-        border: 2px solid var(--warriors-blue);
-        legend {font-weight: bold; }
-    }
+form fieldset {
+    border: 2px solid var(--warriors-blue);
+}
+
+form fieldset legend {
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {
