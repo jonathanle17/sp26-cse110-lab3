@@ -17,3 +17,22 @@ body {
     font-size: 12pt;
     border-left: 0.1in solid transparent;
 }
+
+h1, h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+header {
+    background-color: rgb(29, 66, 138);
+    color: hsl(45, 100%, 58%);
+    padding: 2em;
+}
+
+footer {
+    color: color(display-p3 1 0.5 0);
+    background-color: color-mix(in srgb, var(--warriors-blue), white 20%);
+    color: orange;
+    padding-top: 5vh;
+}
