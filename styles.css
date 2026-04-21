@@ -89,3 +89,27 @@ nav {
     display: block;
     height: auto;
 }
+
+section p { color: #333; }
+ul > li {font-weight: bold; }
+h2 ~ p { font-style: italic; }
+h2 + div {margin-top: 0; }
+
+input[type="text"].user input { border: 1px solid blue; }
+button:hover { background-color: var(--warriors-gold); }
+button:active { transform: scale(0.95); }
+
+section:has(form) {background-color: #eee; }
+
+form {
+    fieldset {
+        border: 2px solid var(--warriors-blue);
+        legend {font-weight: bold; }
+    }
+}
+
+@media (max-width: 600px) {
+    #players {
+        grid-template-columns: 1fr;
+    }
+}
