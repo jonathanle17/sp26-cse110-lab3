@@ -1,3 +1,4 @@
+/* css styling */
 :root {
     --warriors-blue: #1D428A;
     --warriors-gold: #FFC72C;
@@ -113,3 +114,4 @@ form {
         grid-template-columns: 1fr;
     }
 }
+/* End of css styling */
